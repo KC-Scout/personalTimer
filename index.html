@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Timer</title>
+</head>
+<body>
+    <h1>Personal Countdown Timer</h1>
+    <p>Mak a selection below for a time in the future that you like to create a count down for.</p>
+    <input id="target-date" type="date">
+    <button onclick="setInterval(prototypeTimeLeft, 1000)">Set Timer</button>
+    <div>You Have......</div>
+    <div>
+            <h2>Days</h2>
+            <h3 id="days">00</h3>
+            <h2>Hours</h2>
+            <h3 id="hours">00</h3>
+            <h2>Minutes</h2>
+            <h3 id="minutes">00</h3>
+            <h2>Seconds</h2>
+            <h3 id="seconds">00</h3>
+    </div>
+
+    <div>.....Left Until Your Target Day!</div>
+</body>
+<script src="./scripts/exampleFunction.js"></script>
+</html>
+
